@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+html{ margin: 0; padding: 0; }
+body{ font-size: 14px; background: hsl(0, 0%, 93%); color: black; }
+:root { --primary-color: #000000; --secondary-color: #c55b2c; --font-size: 16px; --padding: 15px; --margin: 20px; --primary-font-family: '"Noto Sans", sans-serif'; --secondary-font-family: '"Roboto", sans-serif;'; }
+.container{ width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 6px 0 8px;}
+section.sec-padding { margin-bottom: 27px; }
+.center{ text-align: center; }
+.sub-pera{ padding-top: 30px;font-family: "Roboto", Courier, monospace;font-size: 18px; }
+.adress{ font-weight: 400;font-family: "Roboto", Courier, monospace;font-size: 18px; }
+/* Common CLasses */
+.main-text{font-size: 42px; line-height: 46px; font-weight: 700; color: var(--primary-color);font-family:"Noto Sans", sans-serif;}
+.pera{ font-size: 20px; line-height: 22px; font-weight: 400; color: var(--primary-color);font-family: "Roboto", Courier, monospace; }
+.btn{ color: white; display: inline-block; margin: 12px 0; border: 1px solid black; background-color: var(--secondary-color); font-size: 16px; font-weight: 400; padding: 6px 35px; border-radius: 50px; text-transform: uppercase; transition: all 0.3s ease-in-out; cursor: pointer;margin-top: 20px;font-family: "Roboto", Courier, monospace;}
+.small{ font-size: 18px; line-height: 20px; font-weight: 400; color: var(--primary-color);font-family: "Roboto", Courier, monospace; }
+.btn:hover{ color:white ; transition: all 0.3s ease-in-out; }
+.color{ color: white; }
+
+/* For loader */
+  /* Custom round spinner for Pace.js */
+  .pace { -webkit-pointer-events: none; pointer-events: none; -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+  .pace-inactive { display: none; }
+  .pace .pace-progress { display: none; }
+  .pace .pace-activity { position: fixed; z-index: 2000; top: 50%; left: 50%; width: 50px; height: 50px; margin-left: -40px; margin-top: -40px; border: solid 8px transparent; border-top-color: #3498db; border-radius: 50%; animation: pace-spinner 1s linear infinite; }
+  @keyframes pace-spinner {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
+
+/* For loader End */
+
+
+
+
+/* Section First Start */
+.glyphicon{ font-size: 22px; color:var(--secondary-color); }
+.first-text{ padding: 27px 0 110px 0px; }
+ .adora{ font-size: 55px; line-height: 59px; padding-top: 30px;margin: 0; } 
+.bg{ background: url('/images/sec-one.jpg') no-repeat center center/cover; }
+.text-sec{ text-transform: uppercase; padding-top: 12px; }
+.btn>a{ color:white; transition: all 0.3s ease-in-out; }
+.btn>a:hover{ color: white; text-decoration: none; transition: all 0.3s ease-in-out; }
+/* Section First End */
+
+/* Section Two staring */
+.wrap-one{ display: flex;padding-bottom: 50px;}
+.wrap{ display: flex;padding-bottom: 50px; align-items: center; }
+.get{padding: 48px 0 35px 0;font-weight: 700; }
+.image-section { width: 55%; position: relative; padding-bottom: 20%; }  
+.image-section>img { position: absolute; width: 85%; height: 100%; object-fit: cover; border-radius: 22px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+.about-text { width: 45%; }
+/* Section Two Ending */
+
+/* Section three starting  */
+.section-three{ background-color: var(--secondary-color); }
+.card-container {padding-bottom: 50px; display: flex; flex-wrap: wrap; justify-content: space-around;  gap: 10px;  }
+.card { flex: 1 1 30%;  background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; max-width: 400px; min-width: 200px; padding: 8px; box-sizing: border-box; }
+.card-image{ position: relative; padding-bottom: 70%; margin: 8px; }
+.card-image>img { position: absolute; width: 100%; height:100%; object-fit: cover; border-radius: 23px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+.card-content { padding: 20px; display: flex;flex-direction: column; }
+.card-title { font-size: 24px; margin-bottom: 10px; flex: 1 1 0; }
+.card-description { font-size: 16px; margin-bottom: 20px; flex: 1 1 0}
+/* Section three Ending */
+
+/* Section 4th starting */
+.testimonials { display: flex; justify-content: space-around; flex-wrap: wrap; padding-bottom: 50px;gap: 10px;}
+.testimonial { flex: 1 1 30%; max-width: 400px; min-width: 200px; margin: 10px 0; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 10px;    flex-direction: column; display: flex;border: 1px solid lightgray;  }
+.small.testimonial-conten { flex: 1 1 0; }
+.testimonial-content{ display: flex; flex-direction: column; flex: 1 1 auto; }
+.name { font-size: 20px; font-weight: bold; margin-top: 10px; padding-bottom: 12px; flex:1 1 0}
+.text { width: 30%; padding: 20px 12px 20px 0; }
+.stars { color: orange;padding-top: 10px;font-size: 25px; }
+/* Section 4th ending */
+
+
+/* Section 5th stating */
+.bed{ position: relative; padding-bottom: 50%; width: 70%; }
+.bed>img{position: absolute; width: 100%; height: 100%; object-fit: contain; }
+/* 5th sectioin  End  */
+
+
+/* Media Queries */
+
+/* Large devices (desktops, 1024px to 1200px) */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+.main-text{font-size: 42px; line-height: 46px; }
+.pera{ font-size: 24px; line-height: 24px; }
+.btn{ font-size: 18px;  padding: 6px 40px; margin-top: 20px;}
+.container { padding: 0 20px; }
+/* First section */
+.adora{ font-size: 55px; line-height: 59px; }
+/* Section 2nd  */
+
+}
+
+/* Medium devices (desktops, 992px to 1023px) */
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .main-text { font-size: 32px; line-height: 36px; }
+    .pera { font-size: 24px; line-height: 24px; }
+    .btn { font-size: 18px; padding: 8px 28px; }
+    .container {padding: 0 20px; }
+    /* Section one */
+    .adora{ font-size: 55px; line-height: 59px; }
+    /* Section 2nd  */
+    .get{ padding: 40px 0 30px 0; }
+  
+}
+
+/* Small devices (tablets, 768px to 991px)   */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-text { font-size: 28px; line-height: 32px; }
+    .pera { font-size: 24px; line-height: 27px; }
+    .btn { font-size: 18px; padding: 6px 24px; }
+    .container { padding: 0 15px; }
+    .adora{ font-size: 38px; line-height: 39px; }
+    section.sec-padding{ margin-bottom:1px }
+    /* Section 2nd  */ 
+    .get{ padding: 35px 0 35px 0; }
+    /* 3rd section */
+    .card { padding: 1px; }
+    .card-image { margin: 10px; }
+    /* 4th section  */
+    .testimonial{ padding: 4px; }
+    /* section 5th  */
+    .adress{ width: 100%; }
+
+}
+
+/* Extra small devices (phones, 320px to 767px)   (not completed problem in card title (659px card rep))*/ 
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+    .main-text { font-size: 26px; line-height: 26px; }
+    .pera {font-size: 18px; line-height: 22px;}
+    .btn { font-size: 15px; padding: 4px 10px; margin-top: 15px; }
+    .container { padding: 0 20px; }
+    section.sec-padding { margin-bottom: 4px; }
+/* First sectoin  */
+.first-text { padding: 27px 0 27px 0px; }
+.adora>br { display: none; }
+.adora { padding-top: 12px; }
+.text-sec { padding-top: 10px; }
+/* this is for the 2nd section column */
+/* Section 2nd  */
+    .get{ padding: 20px 0 18px 0; }
+  
+    /* .respon{ padding: 20px 0; } */
+    .wrap-one{ flex-direction: column-reverse; padding-bottom: 30px; }
+    .wrap{ flex-direction: column-reverse; padding-bottom: 30px; }
+    .image-section { width: 100%; padding-bottom: 50%; }
+    .image-section>img { width: 100%; padding-top: 12px;}
+    .about-text{ padding-top: 1px; width: 100%; }
+    /* this is 3rd */
+    .card-container {gap:15px;padding-bottom: 30px;}
+.card { padding: 1px;max-width:280px; }
+.card-container { gap: 10px; padding-bottom: 30px; }
+.card-image>img { position: absolute; width: 100%; height:100%; object-fit: cover; border-radius: 23px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+.card-content { padding: 20px; }
+.card-title { font-size: 24px; margin-bottom: 10px; }
+.card-description { font-size: 16px; margin-bottom: 20px; }
+    .card-image { margin: 7px; }
+    /* this is the 4th section */
+    .testimonial{ padding: 4px; max-width:280px;}
+    .testimonials:last-child{ padding-bottom: 10px }
+/* %5th Section  */
+.text{ width:100%; padding: 15px 0 ;text-align: center; }
+.bed{ width: 100%; padding-bottom: 70%;}
+.sub-pera{ padding-top: 12px; }
+.adress{ width: 100%; }
+.bed>img{ padding-top: 12px; }
+
+}
+@media only screen and (max-width: 320px) {
+    .main-text { font-size: 20px; line-height: 20px; }
+    .pera { font-size: 16px; line-height: 16px; }
+    .btn { font-size: 15px; padding: 4px 20px; margin-top: 10px; }
+    .container { padding: 0 15px; }
+    section.sec-padding { margin-bottom: 4px; }
+    /* SECtion 1 */
+    .adora>br { display: none; }
+    .adora { padding-top: 10px; }
+    .first-text { padding: 27px 0 10px 0px; }
+    .text-sec { padding-top: 8px; }
+    /* Section 2nd  */
+    .get{ padding: 25px 0 18px 0; }
+    .respon{ padding: 18px 0; }
+    .wrap-one{ flex-direction: column-reverse; }
+    .wrap{ flex-direction: column-reverse; }
+    .image-section { width: 100%; padding-bottom: 50%; }
+    .about-text{ width: 100%; }
+    .image-section>img { width: 100%; }
+    /* SECtion THree */
+    .card-container {flex-direction: column; align-items: center;justify-content: center;}
+    .testimonial{ padding: 4px;}
+    .testimonials:last-child{ padding-bottom: 20px }
+    /* Sectoin 5 th*/
+    .text{ width: 100%; padding-top: 10px; }
+    .bed{ width: 100%; padding-bottom: 70%; }
+    .sub-pera{ padding-top: 12px; }
+    .adress{ width: 100%; }
+    .bed>img{ padding-top: 12px; }
+}
+
+
+
+
+
+
+
+
+
+

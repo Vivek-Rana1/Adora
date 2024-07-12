@@ -1,0 +1,28 @@
+
+
+
+.Industry{ padding-top: 20px; }
+.About{ margin-top: 20px; padding-bottom: 20px; }
+.row{ display: flex;justify-content: space-between; }
+.centered-text { color: white; background-color: rgba(0, 0, 0, 0.5);  transform: translate(-50%, -50%); opacity: 1; z-index: 100; position: absolute; top: 50%; left: 50%; font-size: 22px; font-weight: 600; }
+
+
+.col{ max-width: 400px; min-width: 200px; }
+
+.owl-carousel { display: block; width: 100%; z-index: 1; }
+
+/* This is for the popup  */
+.image-popup{ width: 55%;  position: relative; padding-bottom: 20%; }  
+.image-popup>img { width: 85%; height: 100%; object-fit: cover; border-radius: 22px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);position: absolute; }
+
+iframe{ width: 100%; }
+
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+.row{ justify-content: space-around; }
+.col{ max-width:280px;min-width:200px; }
+.image-popup { width: 100%;padding-bottom: 50%; padding-top: 12px;}
+.image-popup>img { width: 100%; }
+}
+
+

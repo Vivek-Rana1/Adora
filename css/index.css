@@ -40,7 +40,7 @@ section.sec-padding { margin-bottom: 27px; }
 .glyphicon{ font-size: 22px; color:var(--secondary-color); }
 .first-text{ padding: 27px 0 110px 0px; }
  .adora{ font-size: 55px; line-height: 59px; padding-top: 30px;margin: 0; } 
-.bg{ background: url('/public/images/sec-one.jpg') no-repeat center center/cover; }
+.bg{ background: url('/images/sec-one.jpg') no-repeat center center/cover; }
 .text-sec{ text-transform: uppercase; padding-top: 12px; }
 .btn>a{ color:white; transition: all 0.3s ease-in-out; }
 .btn>a:hover{ color: white; text-decoration: none; transition: all 0.3s ease-in-out; }
